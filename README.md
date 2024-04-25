@@ -273,4 +273,8 @@ Based on our findings, the following recommendations are proposed to guide futur
 - Sustainable AI Practices: Emphasize the development of energy-efficient AI algorithms and systems that minimize environmental impact while maximizing performance.
 - User-Centric Design: Maintain a strong focus on user-centric design principles to ensure that smart home technologies remain accessible, user-friendly, and beneficial to a broad demographic.
 
+![image](https://github.com/Satomshi/Dat255/assets/123727564/0358ea6a-4934-4691-a11a-abd46c0fbb7c)
+![image](https://github.com/Satomshi/Dat255/assets/123727564/5f0f8563-f019-4599-96a4-17c29b092bd6)
+
+
 
