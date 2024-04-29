@@ -276,5 +276,15 @@ Based on our findings, the following recommendations are proposed to guide futur
 ![image](https://github.com/Satomshi/Dat255/assets/123727564/0358ea6a-4934-4691-a11a-abd46c0fbb7c)
 ![image](https://github.com/Satomshi/Dat255/assets/123727564/5f0f8563-f019-4599-96a4-17c29b092bd6)
 
+This code is used in Home Assistant to enable the local AI, Whisper, to communicate with other smart home devices:
+
+Current time retrieved from the computer: {{ now() }}
+Available smart home devices:
+```csv
+entity_id,name,state,aliases
+{% for entity in exposed_entities %}
+{{ entity.entity_id }},{{ entity.name }},{{ entity.state }},{{ entity.aliases | join('/') }}
+{% endfor %}
+
 
 
