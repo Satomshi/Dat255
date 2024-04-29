@@ -278,13 +278,16 @@ Based on our findings, the following recommendations are proposed to guide futur
 
 This code is used in Home Assistant to enable the local AI, Whisper, to communicate with other smart home devices:
 
+
 Current time retrieved from the computer: {{ now() }}
+
 Available smart home devices:
+
 ```csv
 entity_id,name,state,aliases
 {% for entity in exposed_entities %}
 {{ entity.entity_id }},{{ entity.name }},{{ entity.state }},{{ entity.aliases | join('/') }}
-{% endfor %}
+{% endfor %}**
 
 
 
